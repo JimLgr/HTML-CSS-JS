@@ -1,0 +1,51 @@
+body {
+  background-color: var(--light-yellow);
+}
+
+h1,h2 {
+  color: orangered;
+}
+
+.js_dom3 {
+  color: blue;
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.js_dom4 {
+  color: grey;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.js_dom5 {
+  background-color: #3366cc;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.slider_image {
+	max-width: 100%;
+	cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.message_start {
+ color: orangered;
+}
+
+.message_stop {
+ color: var(--grey);
+}
+

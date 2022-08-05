@@ -1,0 +1,121 @@
+body {
+  background-color: var(--light-yellow);
+}
+
+.sandbox_section {
+  background-color: wheat;
+  padding: 2px 1% 2% 1%;
+  margin-bottom: 20px;
+}
+
+h1,h2 {
+  color: var(--medium-grey);
+}
+
+.standard_box {
+  background-color: var(--light-green);
+}
+
+.image_content {
+  background-color: yellow;
+  box-sizing: border-box;
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  padding: 20px;
+  border: 6px solid blue;
+}
+
+audio,video {
+  width: 30%;
+}
+
+.flex_fieldset {
+  margin-top: 1%;
+  max-width: 100%;
+}
+
+.flex_container {
+  display: flex;
+  width: 100%;
+  background-color: var(--light-grey);
+}
+
+.direction_column {
+  flex-direction: column;
+}
+
+.flex_item {
+  color: white;
+  padding: 5px;
+}
+
+.item_Bruxelles {
+  background-color: navy;
+}
+
+.item_Madrid {
+  background-color: orange;
+}
+
+.item_Oslo {
+  background-color: purple;
+}
+
+.item_Paris {
+  background-color: forestGreen;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.justify_end {
+  justify-content: flex-end;
+}
+
+.justify_space_between {
+  justify-content: space-between;
+}
+
+.justify_space_around {
+  justify-content: space-around;
+}
+
+.align_start {
+  align-items: flex-start;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.align_end {
+  align-items: flex-end;
+}
+
+.container_height {
+  height: 50px;
+}
+
+.flex_grow_1 {
+  flex-grow: 1;
+}
+
+.flex_grow_2 {
+  flex-grow: 2;
+}
+
+.align_self_start {
+  align-self: flex-start;
+}
+
+.align_self_center {
+  align-self: center;
+}
+
+.align_self_end {
+  align-self: flex-end;
+}
+
+

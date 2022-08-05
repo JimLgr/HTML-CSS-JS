@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<!--site web modifié le 14-07-2021-->
+    <title>J'apprends à coder un site web</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jules CESAR">
+    <meta name="description" content="J'apprends à coder un site web">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  
+  <body>
+		<header>
+			<img src="img/html-white.svg" alt="Logo HTML" class="header_logo">
+			<img src="img/css-white.svg" alt="Logo CSS" class="header_logo">
+		
+			<nav>
+				<a href="index.html" class="nav_link">Accueil</a>
+				<a href="apples.html" class="nav_link">Pommes</a>
+				<a href="lemons.html" class="nav_link">Citrons</a>
+				<a href="sandbox.html" class="nav_link">Sandbox</a>
+				<a href="contact.html" class="nav_link">Contact</a>
+			</nav>
+		</header>
+		
+		<div class="central">
+      <main>
+		    <h1>Bienvenue dans le formulaire de contact</h1>
+				<form action="form-processing.html">
+					Votre prénom<span class="red"> *</span>
+	        <input type="text" value="Entrez votre prénom ici" class="field_content">
+	
+	        Votre nom<span class="red"> *</span>
+	        <input type="text" value="Entrez votre nom ici" class="field_content">
+	
+	        Votre adresse email<span class="red"> *</span>
+	        <input type="text" value="Entrez votre adresse de courriel ici" class="field_content">
+	
+	        Votre message <span class="red"> *</span>
+	        <textarea class="field_content" rows="4" cols="50" maxlength="10"
+						placeholder="Entrez votre message ici">
+	        </textarea>
+	
+	        <p>
+						<input type="reset" value="Réinitialiser" class="button">
+	          <input type="submit" value="Envoyer" class="button">
+	        </p>
+	      </form>
+		  </main>
+		  
+		  <aside>
+        <section>
+	        <h2>Téléchargez mon CV</h2>
+	        <a href="documents/moncv.pdf"><img src="img/pdf.png" 
+						 alt="Mon CV" class="pdf"></a>      
+        </section>
+        
+        <section>
+	        <h2>Contactez-moi via ce site</h2>	
+	        <p>Utilisez le <a href="contact.html">formulaire</a> de contact</p>      
+        </section>        
+
+        <section>
+	        <h2>Référence HTML et CSS</h2>
+	        <p>Utilisez toutes les ressources disponibles sur MDN Web Docs</p>
+	        <a href="https://developer.mozilla.org/fr/docs/Web" target="_blank">
+						<img src="img/mdn-web-docs.svg" alt="Logo MDN Web Docs"></a>
+				</section>        
+      </aside>
+		</div><!--End .central-->
+		
+    <footer>
+      <address>
+        Éditeur responsable <a href="mailto:jules.cesar@romeantique.it" 
+          class="email_address">Jules CESAR</a>
+        <p>Rue du Colisée - Rome - Italie antique</p>
+      </address>
+    </footer>	      
+  </body>
+</html>

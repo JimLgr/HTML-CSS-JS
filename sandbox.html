@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>J'apprends à coder un site web</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jules CESAR">
+    <meta name="description" content="J'apprends à coder un site web">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/sandbox.css">
+  </head>
+  
+  <body>
+		<header>
+			<img src="img/html-white.svg" alt="Logo HTML" class="header_logo">
+			<img src="img/css-white.svg" alt="Logo CSS" class="header_logo">
+		
+			<nav>
+				<a href="index.html" class="nav_link">Accueil</a>
+				<a href="apples.html" class="nav_link">Pommes</a>
+				<a href="lemons.html" class="nav_link">Citrons</a>
+				<a href="sandbox.html" class="nav_link">Sandbox</a>
+				<a href="sandbox-js.html" class="nav_link">SandboxJS</a>
+				<a href="contact.html" class="nav_link">Contact</a>
+			</nav>
+		</header>
+		
+		<div class="central">
+      <main>	
+		    <h1>Bienvenue dans le bac à sable</h1>
+		    
+		    <section class="sandbox_section">
+					<h2>Calcul de la dimension des boîtes standards et alternatives</h2>
+					<div class="standard_box">
+						<img src="img/mdn-web-docs.svg" class="image_content">
+						<img src="img/mdn-web-docs.svg" class="image_content">
+					</div>
+		    </section>
+		    
+		    <section class="sandbox_section">
+					<h2>Modèle de boîte des balises &lt;audio&gt; et &lt;video&gt;</h2>
+					TEXTE
+					<audio controls><source src="audio/perception.oga" type="audio/ogg"></audio>
+					TEXTE
+					<audio controls><source src="audio/perception.oga" type="audio/ogg"></audio>
+					TEXTE
+		    
+					<p>TEXTE</p>
+					<p><audio controls><source src="audio/perception.oga" type="audio/ogg"></audio></p>
+					<audio controls><source src="audio/perception.oga" type="audio/ogg"></audio>
+					<br>TEXTE
+		    </section>
+		    
+		    <section class="sandbox_section">
+					<h2>Boîtes FlexBox : <span class="red">flex-direction</span></h2>
+					<p>Axe de positionnement principal pour les Flex Items (horizontal ou vertical)</p>
+					<fieldset class="flex_fieldset">
+						<legend>flex-direction: <span class="red">row *</span></legend>
+						<div class="flex_container">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End flex-direction: row-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>flex-direction: <span class="red">column</span></legend>
+						<div class="flex_container direction_column">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End flex-direction: column-->
+					</fieldset>
+		     </section>
+		     
+		    <section class="sandbox_section">
+					<h2>Boîtes FlexBox : <span class="red">justify-content</span></h2>
+					<p>Justification des Flex Items sur l'axe principal</p>
+					<fieldset class="flex_fieldset">
+						<legend>justify-content: <span class="red">flex-start *</span></legend>
+						<div class="flex_container">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End justify-content: flex-start-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>justify-content: <span class="red">center</span></legend>
+						<div class="flex_container justify_center">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End justify-content: center-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>justify-content: <span class="red">flex-end</span></legend>
+						<div class="flex_container justify_end">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End justify-content: flex-end-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>justify-content: <span class="red">space-between</span></legend>
+						<div class="flex_container justify_space_between">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End justify-content: space-between-->
+					</fieldset>			
+					
+					<fieldset class="flex_fieldset">
+						<legend>justify-content: <span class="red">space-around</span></legend>
+						<div class="flex_container justify_space_around">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End justify-content: space-around-->
+					</fieldset>		
+				</section>
+					
+		    <section class="sandbox_section">
+					<h2>Boîtes FlexBox : <span class="red">align-items</span></h2>
+					<p>Alignement des Flex Items sur l'axe secondaire (à 90° de l'axe principal)</p>
+					<fieldset class="flex_fieldset">
+						<legend>align-items: <span class="red">stretch *</span></legend>
+						<div class="flex_container container_height">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-items: stretch-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>align-items: <span class="red">flex-start</span></legend>
+						<div class="flex_container container_height align_start">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-items: flex-start-->
+					</fieldset>	
+					
+					<fieldset class="flex_fieldset">
+						<legend>align-items: <span class="red">center</span></legend>
+						<div class="flex_container container_height align_center">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-items: center-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>align-items: <span class="red">flex-end</span></legend>
+						<div class="flex_container container_height align_end">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-items: flex-end-->
+					</fieldset>	
+		    </section>
+		    
+		    <section class="sandbox_section">
+					<h2>Boîtes FlexBox : <span class="red">flex-grow</span></h2>
+					<p>Facteur d'élargissement des Flex Items dans l'espace libre</p>
+					<fieldset class="flex_fieldset">
+						<legend>flex-grow: <span class="red">0 *</span></legend>
+						<div class="flex_container">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End flex-grow: 0-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>flex-grow: <span class="red">1(Madrid)</span></legend>
+						<div class="flex_container">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid flex_grow_1">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End flex-grow: 1(Madrid)-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>flex-grow: <span class="red">1(Madrid) 2(Oslo)</span></legend>
+						<div class="flex_container">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid flex_grow_1">Madrid</span>
+		          <span class="flex_item item_Oslo flex_grow_2">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End flex-grow: 1(Madrid) 2(Oslo)-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>flex-grow: <span class="red">1(Tous les Flex Items)</span></legend>
+						<div class="flex_container">
+		          <span class="flex_item item_Bruxelles flex_grow_1">Bruxelles</span>
+		          <span class="flex_item item_Madrid flex_grow_1">Madrid</span>
+		          <span class="flex_item item_Oslo flex_grow_1">Oslo</span>
+		          <span class="flex_item item_Paris flex_grow_1">Paris</span>
+		        </div><!--End flex-grow: 1(ALL)-->
+					</fieldset>
+				</section>
+				
+				<section class="sandbox_section">
+					<h2>Boîtes FlexBox : <span class="red">align-self</span></h2>
+					<p>Alignement des Flex Items par rapport à leurs "frères"</p>
+					<fieldset class="flex_fieldset">
+						<legend>align-self: <span class="red">stretch *</span></legend>
+						<div class="flex_container container_height">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-self: stretch-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>align-self: <span class="red">flex-start(Madrid)</span></legend>
+						<div class="flex_container container_height">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid align_self_start">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-self: flex-start-->
+					</fieldset>	
+					
+					<fieldset class="flex_fieldset">
+						<legend>align-self: <span class="red">center(Madrid)</span></legend>
+						<div class="flex_container container_height">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid align_self_center">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-self: center-->
+					</fieldset>
+					
+					<fieldset class="flex_fieldset">
+						<legend>align-self: <span class="red">flex-end(Madrid)</span></legend>
+						<div class="flex_container container_height">
+		          <span class="flex_item item_Bruxelles">Bruxelles</span>
+		          <span class="flex_item item_Madrid align_self_end">Madrid</span>
+		          <span class="flex_item item_Oslo">Oslo</span>
+		          <span class="flex_item item_Paris">Paris</span>
+		        </div><!--End align-self: flex-end-->
+					</fieldset>	
+		    </section>
+		  </main>
+		  
+		  <aside>
+        <section>
+	        <h2>Téléchargez mon CV</h2>
+	        <a href="documents/moncv.pdf"><img src="img/pdf.png" 
+						 alt="Mon CV" class="pdf"></a>      
+        </section>
+        
+        <section>
+	        <h2>Contactez-moi via ce site</h2>	
+	        <p>Utilisez le <a href="contact.html">formulaire</a> de contact</p>      
+        </section>        
+
+        <section>
+	        <h2>Référence HTML et CSS</h2>
+	        <p>Utilisez toutes les ressources disponibles sur MDN Web Docs</p>
+	        <a href="https://developer.mozilla.org/fr/docs/Web" target="_blank">
+						<img src="img/mdn-web-docs.svg" alt="Logo MDN Web Docs"></a>
+				</section>          
+      </aside>
+		</div><!--End .central-->
+		
+    <footer>
+      <address>
+        Éditeur responsable <a href="mailto:jules.cesar@romeantique.it" 
+          class="email_address">Jules CESAR</a>
+        <p>Rue du Colisée - Rome - Italie antique</p>
+      </address>
+    </footer>	
+  </body>
+</html>
